@@ -1,0 +1,21 @@
+/*if the naviagation drawer is open class
+we want it top open from the top left coner 
+
+*/
+.diagonal-drawer.open {
+  transform: translate(0, 0);
+  }
+
+.diagonal-drawer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    transform-origin: top right;
+    transform: translate(-100%, -100%);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+
+  
